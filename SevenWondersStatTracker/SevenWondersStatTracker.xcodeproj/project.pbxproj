@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,9 @@
 		C7ABC5A1269DD9BC00BC72A9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ABC5A0269DD9BC00BC72A9 /* DatabaseManager.swift */; };
 		C7ABC5A3269E1BA700BC72A9 /* UserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ABC5A2269E1BA700BC72A9 /* UserSelectionViewController.swift */; };
 		C7ABC5A5269E245F00BC72A9 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ABC5A4269E245F00BC72A9 /* AddUserViewController.swift */; };
-		D8B1422D4D8CEC5B2219C977 /* Pods_SevenWondersStatTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9771C4E32358A18F0A7201E /* Pods_SevenWondersStatTracker.framework */; };
+		C7AC7ECD2853A0B80086C42F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C7AC7ECC2853A0B80086C42F /* SnapKit */; };
+		C7AC7ED02853A2EF0086C42F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C7AC7ECF2853A2EF0086C42F /* FirebaseAuth */; };
+		C7AC7ED22853A2EF0086C42F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C7AC7ED12853A2EF0086C42F /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +37,6 @@
 		C7ABC5A0269DD9BC00BC72A9 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		C7ABC5A2269E1BA700BC72A9 /* UserSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionViewController.swift; sourceTree = "<group>"; };
 		C7ABC5A4269E245F00BC72A9 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
-		D9771C4E32358A18F0A7201E /* Pods_SevenWondersStatTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevenWondersStatTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9203FC3236EEE62F9F7364 /* Pods-SevenWondersStatTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenWondersStatTracker.debug.xcconfig"; path = "Target Support Files/Pods-SevenWondersStatTracker/Pods-SevenWondersStatTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		F9F5397C1724EED33A8C15B2 /* Pods-SevenWondersStatTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenWondersStatTracker.release.xcconfig"; path = "Target Support Files/Pods-SevenWondersStatTracker/Pods-SevenWondersStatTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,28 +44,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B1422D4D8CEC5B2219C977 /* Pods_SevenWondersStatTracker.framework in Frameworks */,
+				C7AC7ECD2853A0B80086C42F /* SnapKit in Frameworks */,
+				C7AC7ED02853A2EF0086C42F /* FirebaseAuth in Frameworks */,
+				C7AC7ED22853A2EF0086C42F /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B534018653CA3D00D8C8A440 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D9771C4E32358A18F0A7201E /* Pods_SevenWondersStatTracker.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C7ABC57E2691015400BC72A9 = {
 			isa = PBXGroup;
 			children = (
 				C7ABC5892691015400BC72A9 /* SevenWondersStatTracker */,
 				C7ABC5882691015400BC72A9 /* Products */,
-				D15978E601ED4F35DA7E5164 /* Pods */,
-				B534018653CA3D00D8C8A440 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,15 +88,6 @@
 			path = SevenWondersStatTracker;
 			sourceTree = "<group>";
 		};
-		D15978E601ED4F35DA7E5164 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA9203FC3236EEE62F9F7364 /* Pods-SevenWondersStatTracker.debug.xcconfig */,
-				F9F5397C1724EED33A8C15B2 /* Pods-SevenWondersStatTracker.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,17 +95,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7ABC59B2691015500BC72A9 /* Build configuration list for PBXNativeTarget "SevenWondersStatTracker" */;
 			buildPhases = (
-				73E53587FDD88EB582DC4CE2 /* [CP] Check Pods Manifest.lock */,
 				C7ABC5832691015400BC72A9 /* Sources */,
 				C7ABC5842691015400BC72A9 /* Frameworks */,
 				C7ABC5852691015400BC72A9 /* Resources */,
-				6605B01C42B8B2B0383B1AF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SevenWondersStatTracker;
+			packageProductDependencies = (
+				C7AC7ECC2853A0B80086C42F /* SnapKit */,
+				C7AC7ECF2853A2EF0086C42F /* FirebaseAuth */,
+				C7AC7ED12853A2EF0086C42F /* FirebaseFirestore */,
+			);
 			productName = SevenWondersStatTracker;
 			productReference = C7ABC5872691015400BC72A9 /* SevenWondersStatTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +136,10 @@
 				Base,
 			);
 			mainGroup = C7ABC57E2691015400BC72A9;
+			packageReferences = (
+				C7AC7ECB2853A0B80086C42F /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C7AC7ECE2853A2EF0086C42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C7ABC5882691015400BC72A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,48 +162,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6605B01C42B8B2B0383B1AF6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SevenWondersStatTracker/Pods-SevenWondersStatTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SevenWondersStatTracker/Pods-SevenWondersStatTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SevenWondersStatTracker/Pods-SevenWondersStatTracker-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		73E53587FDD88EB582DC4CE2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SevenWondersStatTracker-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7ABC5832691015400BC72A9 /* Sources */ = {
@@ -371,7 +318,6 @@
 		};
 		C7ABC59C2691015500BC72A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA9203FC3236EEE62F9F7364 /* Pods-SevenWondersStatTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -391,7 +337,6 @@
 		};
 		C7ABC59D2691015500BC72A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9F5397C1724EED33A8C15B2 /* Pods-SevenWondersStatTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,6 +376,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7AC7ECB2853A0B80086C42F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		C7AC7ECE2853A2EF0086C42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7AC7ECC2853A0B80086C42F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7AC7ECB2853A0B80086C42F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		C7AC7ECF2853A2EF0086C42F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7AC7ECE2853A2EF0086C42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C7AC7ED12853A2EF0086C42F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7AC7ECE2853A2EF0086C42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7ABC57F2691015400BC72A9 /* Project object */;
 }
