@@ -28,9 +28,8 @@ class DatabaseManager {
                 print("Error getting data \(error)")
                 completion([])
             }
-            else if snapshot.exists() {
-                print("Got data \(snapshot.value!)")
-                guard let value = snapshot.value as? [String] else {
+            else if ((snapshot?.exists()) != nil) {
+                guard let value = snapshot?.value as? [String] else {
                     print("Data in wrong type")
                     completion([])
                     return
