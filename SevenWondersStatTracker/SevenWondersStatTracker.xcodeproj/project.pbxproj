@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C68D0ADE28783769000D2B38 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */; };
+		C68D0AE6287F1FFA000D2B38 /* 7WondersLogo2 in Resources */ = {isa = PBXBuildFile; fileRef = C68D0AE5287F1FFA000D2B38 /* 7WondersLogo2 */; };
 		C6CD4242285767930026A5B1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C6CD4241285767930026A5B1 /* FirebaseDatabase */; };
 		C6CD4244285767930026A5B1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C6CD4243285767930026A5B1 /* FirebaseFirestore */; };
 		C6CD4247285772DB0026A5B1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C6CD4246285772DB0026A5B1 /* FirebaseAnalytics */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		C68D0AE5287F1FFA000D2B38 /* 7WondersLogo2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7WondersLogo2; sourceTree = "<group>"; };
 		C77B71A526BCF5DA00167E17 /* AddScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScoreViewController.swift; sourceTree = "<group>"; };
 		C7ABC5872691015400BC72A9 /* SevenWondersStatTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenWondersStatTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7ABC58A2691015400BC72A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,9 +86,11 @@
 		C7ABC5892691015400BC72A9 /* SevenWondersStatTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C68D0AE5287F1FFA000D2B38 /* 7WondersLogo2 */,
 				C7ABC58A2691015400BC72A9 /* AppDelegate.swift */,
 				C7ABC58C2691015400BC72A9 /* SceneDelegate.swift */,
 				C7ABC58E2691015400BC72A9 /* ViewController.swift */,
+				C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */,
 				C7ABC5A2269E1BA700BC72A9 /* UserSelectionViewController.swift */,
 				C7ABC5A4269E245F00BC72A9 /* AddUserViewController.swift */,
 				C77B71A526BCF5DA00167E17 /* AddScoreViewController.swift */,
@@ -174,6 +180,7 @@
 				C7ABC5972691015500BC72A9 /* LaunchScreen.storyboard in Resources */,
 				C7ABC59F269DCD1700BC72A9 /* GoogleService-Info.plist in Resources */,
 				C7ABC5942691015500BC72A9 /* Assets.xcassets in Resources */,
+				C68D0AE6287F1FFA000D2B38 /* 7WondersLogo2 in Resources */,
 				C7ABC5922691015400BC72A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +196,7 @@
 				C7ABC5A5269E245F00BC72A9 /* AddUserViewController.swift in Sources */,
 				C7ABC58F2691015400BC72A9 /* ViewController.swift in Sources */,
 				C7ABC58B2691015400BC72A9 /* AppDelegate.swift in Sources */,
+				C68D0ADE28783769000D2B38 /* MainMenuViewController.swift in Sources */,
 				C7ABC5A1269DD9BC00BC72A9 /* DatabaseManager.swift in Sources */,
 				C7ABC58D2691015400BC72A9 /* SceneDelegate.swift in Sources */,
 				C77B71A626BCF5DA00167E17 /* AddScoreViewController.swift in Sources */,
