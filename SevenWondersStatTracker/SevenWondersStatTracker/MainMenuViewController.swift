@@ -21,7 +21,7 @@ class MainMenuViewController: UIViewController {
     
     lazy var myGamesButton: UIButton = {
         let button = UIButton()
-        button.setTitle("My Gamess", for: .normal)
+        button.setTitle("My Games", for: .normal)
         button.backgroundColor = .systemOrange
         button.layer.cornerRadius = 10
         //button.addTarget(self, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
@@ -55,8 +55,13 @@ class MainMenuViewController: UIViewController {
         return stack
     }()
     
+    lazy var topView: UIView = {
+        let view = UIView()
+        return view
+    }()
+    
     lazy var mainMenuStackView: UIStackView = {
-        let stack = UIStackView(arrangedSubviews: [ UIView(), sevenWonderslogoView, labelStackView, UIView()])
+        let stack = UIStackView(arrangedSubviews: [ topView, sevenWonderslogoView, labelStackView, UIView()])
         stack.axis = .vertical
         stack.distribution = .fill
         stack.spacing = 20
@@ -71,13 +76,19 @@ class MainMenuViewController: UIViewController {
         mainMenuStackView.snp.makeConstraints { make in
             make.edges.equalTo(view.safeAreaLayoutGuide)
         }
+        
+        topView.snp.makeConstraints { make in
+            make.top.equalTo(100)
+        }
     
         sevenWonderslogoView.snp.makeConstraints { make in
-            make.centerY.centerX.equalToSuperview()
-            make.width.equalTo(450)
-            make.height.equalTo(150)
+//            make.centerY.centerX.equalToSuperview()
+//            make.width.equalTo(450)
+//            make.height.equalTo(150)
 //            make.leading.trailing.equalTo(100)
 //            make.top.bottom.equalTo(100)
+//            make.centerX.equalTo(view.snp.width)
+//            make.centerY.equalTo(view.snp.height)
         }
         
         labelStackView.snp.makeConstraints { make in

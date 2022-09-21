@@ -12,7 +12,6 @@ class UserSelectionCell: UITableViewCell {
     lazy var nameLabel: UILabel = {
         let l = UILabel()
         l.textColor = .label
-        
         return l
     }()
     

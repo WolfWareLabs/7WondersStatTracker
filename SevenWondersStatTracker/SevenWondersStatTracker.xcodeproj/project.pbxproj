@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C66204D62889AE53002F37DD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C66204D52889AE53002F37DD /* FirebaseAnalytics */; };
+		C66204D82889AE53002F37DD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C66204D72889AE53002F37DD /* FirebaseDatabase */; };
+		C66204DA2889AE53002F37DD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C66204D92889AE53002F37DD /* FirebaseFirestore */; };
+		C66204DD2889B517002F37DD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C66204DC2889B517002F37DD /* SnapKit */; };
 		C68D0ADE28783769000D2B38 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */; };
 		C68D0AE6287F1FFA000D2B38 /* 7WondersLogo2 in Resources */ = {isa = PBXBuildFile; fileRef = C68D0AE5287F1FFA000D2B38 /* 7WondersLogo2 */; };
 		C6CD4242285767930026A5B1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C6CD4241285767930026A5B1 /* FirebaseDatabase */; };
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66204D82889AE53002F37DD /* FirebaseDatabase in Frameworks */,
 				C7AC7ECD2853A0B80086C42F /* SnapKit in Frameworks */,
 				C7AC7ED02853A2EF0086C42F /* FirebaseAuth in Frameworks */,
 				C6CD4247285772DB0026A5B1 /* FirebaseAnalytics in Frameworks */,
@@ -61,6 +66,9 @@
 				C6CD424B285772DB0026A5B1 /* FirebaseFirestore in Frameworks */,
 				C6CD4249285772DB0026A5B1 /* FirebaseDatabase in Frameworks */,
 				C7AC7ED22853A2EF0086C42F /* FirebaseFirestore in Frameworks */,
+				C66204DD2889B517002F37DD /* SnapKit in Frameworks */,
+				C66204DA2889AE53002F37DD /* FirebaseFirestore in Frameworks */,
+				C66204D62889AE53002F37DD /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +137,10 @@
 				C6CD4246285772DB0026A5B1 /* FirebaseAnalytics */,
 				C6CD4248285772DB0026A5B1 /* FirebaseDatabase */,
 				C6CD424A285772DB0026A5B1 /* FirebaseFirestore */,
+				C66204D52889AE53002F37DD /* FirebaseAnalytics */,
+				C66204D72889AE53002F37DD /* FirebaseDatabase */,
+				C66204D92889AE53002F37DD /* FirebaseFirestore */,
+				C66204DC2889B517002F37DD /* SnapKit */,
 			);
 			productName = SevenWondersStatTracker;
 			productReference = C7ABC5872691015400BC72A9 /* SevenWondersStatTracker.app */;
@@ -162,6 +174,8 @@
 				C7AC7ECE2853A2EF0086C42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				C6CD4240285767930026A5B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				C6CD4245285772DB0026A5B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C66204D42889AE53002F37DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C66204DB2889B517002F37DD /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = C7ABC5882691015400BC72A9 /* Products */;
 			projectDirPath = "";
@@ -346,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3389RHNLVA;
 				INFOPLIST_FILE = SevenWondersStatTracker/Info.plist;
@@ -365,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3389RHNLVA;
 				INFOPLIST_FILE = SevenWondersStatTracker/Info.plist;
@@ -403,6 +419,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C66204D42889AE53002F37DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C66204DB2889B517002F37DD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 		C6CD4240285767930026A5B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -438,6 +470,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C66204D52889AE53002F37DD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6CD4245285772DB0026A5B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C66204D72889AE53002F37DD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6CD4245285772DB0026A5B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C66204D92889AE53002F37DD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6CD4245285772DB0026A5B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C66204DC2889B517002F37DD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7AC7ECB2853A0B80086C42F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
 		C6CD4241285767930026A5B1 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C6CD4240285767930026A5B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
