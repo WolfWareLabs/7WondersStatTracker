@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6365A8428DD078500733667 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6365A8328DD078400733667 /* GoogleService-Info.plist */; };
 		C66204D62889AE53002F37DD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C66204D52889AE53002F37DD /* FirebaseAnalytics */; };
 		C66204D82889AE53002F37DD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C66204D72889AE53002F37DD /* FirebaseDatabase */; };
 		C66204DA2889AE53002F37DD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C66204D92889AE53002F37DD /* FirebaseFirestore */; };
 		C66204DD2889B517002F37DD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C66204DC2889B517002F37DD /* SnapKit */; };
 		C68D0ADE28783769000D2B38 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */; };
 		C68D0AE6287F1FFA000D2B38 /* 7WondersLogo2 in Resources */ = {isa = PBXBuildFile; fileRef = C68D0AE5287F1FFA000D2B38 /* 7WondersLogo2 */; };
+		C6A49CCD28F0540A0085C30B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C6A49CCC28F0540A0085C30B /* FirebaseStorage */; };
+		C6A49CCF28F6C5F80085C30B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A49CCE28F6C5F80085C30B /* FirebaseManager.swift */; };
+		C6A49CD128F82EED0085C30B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A49CD028F82EED0085C30B /* SignUpViewController.swift */; };
+		C6A49CD328F82F0B0085C30B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A49CD228F82F0B0085C30B /* LogInViewController.swift */; };
 		C6CD4242285767930026A5B1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C6CD4241285767930026A5B1 /* FirebaseDatabase */; };
 		C6CD4244285767930026A5B1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C6CD4243285767930026A5B1 /* FirebaseFirestore */; };
 		C6CD4247285772DB0026A5B1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C6CD4246285772DB0026A5B1 /* FirebaseAnalytics */; };
@@ -25,7 +30,6 @@
 		C7ABC5922691015400BC72A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ABC5902691015400BC72A9 /* Main.storyboard */; };
 		C7ABC5942691015500BC72A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ABC5932691015500BC72A9 /* Assets.xcassets */; };
 		C7ABC5972691015500BC72A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ABC5952691015500BC72A9 /* LaunchScreen.storyboard */; };
-		C7ABC59F269DCD1700BC72A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7ABC59E269DCD1700BC72A9 /* GoogleService-Info.plist */; };
 		C7ABC5A1269DD9BC00BC72A9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ABC5A0269DD9BC00BC72A9 /* DatabaseManager.swift */; };
 		C7ABC5A3269E1BA700BC72A9 /* UserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ABC5A2269E1BA700BC72A9 /* UserSelectionViewController.swift */; };
 		C7ABC5A5269E245F00BC72A9 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ABC5A4269E245F00BC72A9 /* AddUserViewController.swift */; };
@@ -35,8 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6365A8328DD078400733667 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		C68D0AE5287F1FFA000D2B38 /* 7WondersLogo2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7WondersLogo2; sourceTree = "<group>"; };
+		C6A49CCE28F6C5F80085C30B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		C6A49CD028F82EED0085C30B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C6A49CD228F82F0B0085C30B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		C77B71A526BCF5DA00167E17 /* AddScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScoreViewController.swift; sourceTree = "<group>"; };
 		C7ABC5872691015400BC72A9 /* SevenWondersStatTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenWondersStatTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7ABC58A2691015400BC72A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +54,6 @@
 		C7ABC5932691015500BC72A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7ABC5962691015500BC72A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7ABC5982691015500BC72A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7ABC59E269DCD1700BC72A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C7ABC5A0269DD9BC00BC72A9 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		C7ABC5A2269E1BA700BC72A9 /* UserSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionViewController.swift; sourceTree = "<group>"; };
 		C7ABC5A4269E245F00BC72A9 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +72,7 @@
 				C6CD4244285767930026A5B1 /* FirebaseFirestore in Frameworks */,
 				C6CD424B285772DB0026A5B1 /* FirebaseFirestore in Frameworks */,
 				C6CD4249285772DB0026A5B1 /* FirebaseDatabase in Frameworks */,
+				C6A49CCD28F0540A0085C30B /* FirebaseStorage in Frameworks */,
 				C7AC7ED22853A2EF0086C42F /* FirebaseFirestore in Frameworks */,
 				C66204DD2889B517002F37DD /* SnapKit in Frameworks */,
 				C66204DA2889AE53002F37DD /* FirebaseFirestore in Frameworks */,
@@ -75,11 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6A49CCB28F0540A0085C30B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A49CD428F82F4A0085C30B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6A49CD028F82EED0085C30B /* SignUpViewController.swift */,
+				C6A49CD228F82F0B0085C30B /* LogInViewController.swift */,
+				C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */,
+				C7ABC58E2691015400BC72A9 /* ViewController.swift */,
+				C7ABC5A2269E1BA700BC72A9 /* UserSelectionViewController.swift */,
+				C77B71A526BCF5DA00167E17 /* AddScoreViewController.swift */,
+				C7ABC5A4269E245F00BC72A9 /* AddUserViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		C7ABC57E2691015400BC72A9 = {
 			isa = PBXGroup;
 			children = (
 				C7ABC5892691015400BC72A9 /* SevenWondersStatTracker */,
 				C7ABC5882691015400BC72A9 /* Products */,
+				C6A49CCB28F0540A0085C30B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,20 +124,17 @@
 		C7ABC5892691015400BC72A9 /* SevenWondersStatTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C6A49CD428F82F4A0085C30B /* ViewControllers */,
 				C68D0AE5287F1FFA000D2B38 /* 7WondersLogo2 */,
 				C7ABC58A2691015400BC72A9 /* AppDelegate.swift */,
 				C7ABC58C2691015400BC72A9 /* SceneDelegate.swift */,
-				C7ABC58E2691015400BC72A9 /* ViewController.swift */,
-				C68D0ADD28783769000D2B38 /* MainMenuViewController.swift */,
-				C7ABC5A2269E1BA700BC72A9 /* UserSelectionViewController.swift */,
-				C7ABC5A4269E245F00BC72A9 /* AddUserViewController.swift */,
-				C77B71A526BCF5DA00167E17 /* AddScoreViewController.swift */,
 				C7ABC5A0269DD9BC00BC72A9 /* DatabaseManager.swift */,
+				C6A49CCE28F6C5F80085C30B /* FirebaseManager.swift */,
 				C7ABC5902691015400BC72A9 /* Main.storyboard */,
 				C7ABC5932691015500BC72A9 /* Assets.xcassets */,
 				C7ABC5952691015500BC72A9 /* LaunchScreen.storyboard */,
 				C7ABC5982691015500BC72A9 /* Info.plist */,
-				C7ABC59E269DCD1700BC72A9 /* GoogleService-Info.plist */,
+				C6365A8328DD078400733667 /* GoogleService-Info.plist */,
 			);
 			path = SevenWondersStatTracker;
 			sourceTree = "<group>";
@@ -141,6 +168,7 @@
 				C66204D72889AE53002F37DD /* FirebaseDatabase */,
 				C66204D92889AE53002F37DD /* FirebaseFirestore */,
 				C66204DC2889B517002F37DD /* SnapKit */,
+				C6A49CCC28F0540A0085C30B /* FirebaseStorage */,
 			);
 			productName = SevenWondersStatTracker;
 			productReference = C7ABC5872691015400BC72A9 /* SevenWondersStatTracker.app */;
@@ -192,8 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7ABC5972691015500BC72A9 /* LaunchScreen.storyboard in Resources */,
-				C7ABC59F269DCD1700BC72A9 /* GoogleService-Info.plist in Resources */,
 				C7ABC5942691015500BC72A9 /* Assets.xcassets in Resources */,
+				C6365A8428DD078500733667 /* GoogleService-Info.plist in Resources */,
 				C68D0AE6287F1FFA000D2B38 /* 7WondersLogo2 in Resources */,
 				C7ABC5922691015400BC72A9 /* Main.storyboard in Resources */,
 			);
@@ -208,7 +236,10 @@
 			files = (
 				C7ABC5A3269E1BA700BC72A9 /* UserSelectionViewController.swift in Sources */,
 				C7ABC5A5269E245F00BC72A9 /* AddUserViewController.swift in Sources */,
+				C6A49CD328F82F0B0085C30B /* LogInViewController.swift in Sources */,
 				C7ABC58F2691015400BC72A9 /* ViewController.swift in Sources */,
+				C6A49CCF28F6C5F80085C30B /* FirebaseManager.swift in Sources */,
+				C6A49CD128F82EED0085C30B /* SignUpViewController.swift in Sources */,
 				C7ABC58B2691015400BC72A9 /* AppDelegate.swift in Sources */,
 				C68D0ADE28783769000D2B38 /* MainMenuViewController.swift in Sources */,
 				C7ABC5A1269DD9BC00BC72A9 /* DatabaseManager.swift in Sources */,
@@ -364,6 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3389RHNLVA;
 				INFOPLIST_FILE = SevenWondersStatTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = 7Wonders;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3389RHNLVA;
 				INFOPLIST_FILE = SevenWondersStatTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = 7Wonders;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +522,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C7AC7ECB2853A0B80086C42F /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		C6A49CCC28F0540A0085C30B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7AC7ECE2853A2EF0086C42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 		C6CD4241285767930026A5B1 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
