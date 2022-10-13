@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>200391377437-hlkigeasqghgq91spfmtaj8ups4n0ch0.apps.googleusercontent.com</string>
+	<string>1087258055463-39t7mekdan73jn214hbg4r55cj797sls.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.200391377437-hlkigeasqghgq91spfmtaj8ups4n0ch0</string>
+	<string>com.googleusercontent.apps.1087258055463-39t7mekdan73jn214hbg4r55cj797sls</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDMAgEAeqlXVDcjdamrhKo-FbpMKedkR5E</string>
+	<string>AIzaSyDbltBaeyOv1cCEJhbNsSui-wqaIPJuNhw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>200391377437</string>
+	<string>1087258055463</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.MP.SevenWondersStatTracker</string>
+	<string>com.wolfware.SevenWondersStatTracker</string>
 	<key>PROJECT_ID</key>
-	<string>seven-wonders-stat-tracker</string>
+	<string>wondersproject-2d805</string>
 	<key>STORAGE_BUCKET</key>
-	<string>seven-wonders-stat-tracker.appspot.com</string>
+	<string>wondersproject-2d805.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:200391377437:ios:c9e177f3363512be9fbcf4</string>
+	<string>1:1087258055463:ios:653407e59f19aabf698f02</string>
 </dict>
 </plist>
