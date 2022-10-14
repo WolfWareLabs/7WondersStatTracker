@@ -7,10 +7,11 @@
 
 import Foundation
 import Firebase
+import UIKit
 
-struct User: Equatable {
-    var name: String
-}
+//struct User: Equatable {
+//    var name: String
+//}
 
 class DatabaseManager {
     var ref: DatabaseReference
