@@ -8,6 +8,12 @@
 import Foundation
 import UIKit
 
-class LogInViewController {
+class LogInViewController : UIViewController{
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
     
 }
